@@ -1,0 +1,379 @@
+<!-- #################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ################################################################################## -->
+                        
+                        <script type="text/javascript" src="http://extras.denverpost.com/media/js/jquery/jquery.simplemodal.1.4.4.min.js" async></script>
+                        <div style="width:1008px;margin:0 auto 2em;">
+                            <style type="text/css">
+                            #region1 {
+                                float:none!important;
+                            }
+                            #region3 table:first-child {
+                                margin-top:30px;
+                                margin-left:-20px!important;
+                            }
+                            h2#massive {
+                                font-size: 22em;
+                                font-family: 'Oxygen',Helvetica,Arial,sans-serif;
+                                text-align: center;
+                                display: block;
+                                margin: 0 auto 15px;
+                                line-height:.9;
+                                letter-spacing:-28px;
+                                text-indent:-25px;
+                                padding:0;
+                            }
+                            h2#massive a {
+                                text-indent:0;
+                                margin:0;
+                                padding:0;
+                            }
+                            h2#massive a:hover {
+                                text-decoration:none!important;
+                            }
+                            div#minnivedecks {
+                                border-bottom:1px solid #ddd;
+                            }
+                            h3#minnive {
+                                color:#595959;
+                                border-top:1px solid #ddd;
+                                padding: .7em 0;
+                                margin:0 auto;
+                                text-align:center;
+                                font-size:24px;
+                            }
+                            h3#minnivelow {
+                                color:#595959;
+                                border-top:1px solid #ddd;
+                                border-bottom:1px solid #ddd;
+                                padding: .7em 0;
+                                margin:0 auto;
+                                text-align:center;
+                                font-size:20px;
+                            }
+                            ul#minnivelist {
+                                display: block;
+                                width:100%;
+                                border-top:1px solid #ddd;
+                                padding: .8em 0;
+                                font-size:18px;
+                                font-weight:bold;
+                                font-family: "Merriweather", Georgia, "Times New Roman", Times, serif !important;
+                            }
+                            ul#minnivelist li {
+                                list-style-type: none;
+                                padding:0 2%;
+                                float:left;
+                                display:inline-block;
+                                width:21%;
+                            }
+                            #big-box-left {
+                                display:inline-block;
+                                float:left;
+                                width:810px;
+                                margin:0 38px 0 0;
+                            }
+                            #big-box-right {
+                                display:inline-block;
+                                float: left;
+                                width:160px;
+                                margin:0;
+                            }
+                            #big-box-right.complexListingBox .listingItemDate.timestamp {
+                                display:none!important;
+                            }
+                            #big-box-right.complexListingBox a.complexListingLink {
+                                margin-left: 0;
+                                display: block;
+                                font-size: 16px !important;
+                                line-height: 1.4!important;
+                                padding: 0 0 32px;
+                                color: #333 !important;
+                                font-family: "Merriweather", Georgia, "Times New Roman", Times, serif !important;
+                                font-weight: bold;
+                                border:none;
+                            }
+                            #big-box-right.complexListingBox a:hover.complexListingLink {
+                                background-image:none;
+                                background-color:transparent;
+                                background-repeat: no-repeat;
+                                border:none;
+                            }
+                            #big-box-img {
+                                position:relative;
+                                width:100%;
+                                margin-bottom:30px;
+                            }
+                            #big-box-img img {
+                                position:absolute;
+                                top:0;
+                                left:0;
+                                width:100%;
+                            }
+                            #big-box-img .vid-height-space {
+                                width: 100%;
+                                height: 0;
+                                padding-bottom: 56.25%;
+                            }
+                            #big-box-img .videoContainer {
+                                background-position:center center;
+                                background-size:cover;
+                                position:absolute;
+                                top:0;
+                                left:0;
+                                width:100%;
+                                height:100%;
+                            }
+                            #big-box-img .videoContainer:hover .play-icon {
+                                background-color:rgba(0,0,0,0.2);
+                                color: rgba(255,255,255,1.0);
+                            }
+                            #big-box-img .play-icon {
+                                width:100%;
+                                height:100%;
+                                text-align:center;
+                                color: rgba(255,255,255,0.9);
+                                text-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+                                font-family: 
+                            }
+                            #big-box-img .play-icon .play-text {
+                                position:absolute;
+                                bottom:0;
+                                left:0;
+                                width:100%;
+                                padding:.5em 0;
+                                background:rgba(0,0,0,0.7);
+                                text-align: center;
+                                font-family: 'Oxygen',Helvetica,Arial,sans-serif;
+                                font-weight: bold;
+                                font-style:italic;
+                                font-size: 24px;
+                            }
+                            #big-box-img .play-icon:before {
+                                content: '\25B6';
+                                color: rgba(255, 255, 255, 0.9);
+                                font-size: 105px;
+                                font-weight: 700;
+                                pointer-events: none;
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                width:100%;
+                                text-align: center;
+                                z-index: 99;
+                                text-shadow: 0px 0px 6px rgba(0,0,0,0.8);
+                            }
+                            #big-box-vids {
+                                width:100%;
+                                display:block;
+                            }
+                            #big-box-vids div.single-video {
+                                float:left;
+                                display:inline-block;
+                                width:30%;
+                                margin-right:5%;
+                                cursor:pointer;
+                            }
+                            #big-box-left div.single-video:nth-last-child(2) {
+                                margin-right:0;
+                            } 
+                            #big-box-left img.simplepieimage {
+                                margin: 0 0 24px;
+                                width:100%;
+                                height:100%;
+                            }
+                            #big-box-left a:hover img.simplepieimage {
+                                opacity:.75;
+                            }
+                            #big-box-left .skyboxBlogThumbs {
+                                position: relative;
+                                background: #000;
+                                height: auto;
+                                width:231px;
+                                height:140px;
+                            }
+                            #big-box-left .dptvpop.modal {
+                                width: 640px;
+                                height: 550px;
+                                overflow:hidden;
+                                background-color: white;
+                                position: fixed;
+                                top: 50%;
+                                bottom: 50%;
+                                padding: 10px 20px;
+                                margin-left: -337px;
+                                margin-top: -250px;
+                                border: 2px solid #888;
+                                border-radius: 4;
+                            }
+                            #big-box-left .skyboxBlogThumbs a:after {
+                                content: '\25B6';
+                                color: rgba(255,255,255,0.85);
+                                font-size: 65px;
+                                font-weight: 700;
+                                pointer-events: none;
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                margin-top: -10px;
+                                margin-left: -20px;
+                                z-index: 99;
+                                text-shadow: 0px 0px 6px rgba(0,0,0,0.8);
+                            }
+                            #big-box-left .skyboxBlogThumbs a:hover:after {
+                                color: rgba(255,255,255,1.0);
+                            }
+                            #big-box-left a.listingItemTitle:link,
+                            #big-box-left a.listingItemTitle:visited,
+                            #big-box-left a.listingItemTitle:active {
+                                font-size:14px!important;
+                                margin-bottom:24px!important;
+                            }
+                            #big-box-left iframe.dptvsbframe {
+                                overflow:hidden;
+                            }
+                            body.lockemUp { overflow: hidden; }
+                            .modal .simplemodal-close { cursor:pointer; }
+                            </style>
+
+                            <h2 id="massive"><a href="http://www.denverpost.com/theater-shooting-trial/ci_28204753/aurora-theater-shooting-jurors-watch-22-hours-video">GUILT&thinsp;Y</a></h2>
+
+                            <div id="minnivedecks">
+
+                                <h3 id="minnive">Judge rules jury contaminated by social media</h3>
+
+                                <ul id="minnivelist">
+                                    <li>Holmes refuses to testify</li>
+                                    <li>LIVE: Watch verdict announcements</li>
+                                    <li>Watch defense closing arguments</li>
+                                    <li>Watch prosecution closing arguments</li>
+                                    <div class="clear"></div>
+                                </ul>
+
+                            </div>
+
+                            <div style="width:100%;margin:20px 0 0;">
+
+                                <div id="big-box-left">
+
+                                    <div id="big-box-img">
+
+                                        <div class="vid-height-space"></div>
+                                        <div class="videoContainer" id="fce2cf476df14253a15351f1727031b4" onclick="OO.Player.create('fce2cf476df14253a15351f1727031b4', 'JiNGI1czq-yt6jFwOr0VeOsBswBrIQOg', {'autoplay':true});" style="background-image:url('http://extras.mnginteractive.com/live/media/site36/2015/0413/20150413__james-holmes-jury-seating~p1.jpg');">
+                                            <div class="play-icon"><div class="play-text">LIVE VIDEO: JURY DELIVERS VERDICT</div></div>
+                                        </div>
+                                        <script src="//player.ooyala.com/v3/fce2cf476df14253a15351f1727031b4"></script>
+
+                                    </div><!-- end big-box-middle -->
+
+                                    <div id="big-box-vids">
+
+                                        <div class="single-video">
+                                            <script src="http://extras.denverpost.com/cache/trial-verdict-1.js"></script>
+                                        </div>
+                                        <div class="single-video">
+                                            <script src="http://extras.denverpost.com/cache/trial-verdict-2.js"></script>
+                                        </div>
+                                        <div class="single-video">
+                                            <script src="http://extras.denverpost.com/cache/trial-verdict-3.js"></script>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <script type="text/javascript">
+                                    $('.dptvmodalpop').click(function(e) {
+                                        var popFrame = '#' + $(this).data('popid');
+                                        $(popFrame).children('.dptvsbframe').attr('src', $(popFrame).children('.dptvsbframe').data('src'));
+                                        $('body').addClass('lockemUp');
+                                        $(popFrame).modal({
+                                            opacity: 50,
+                                            overlayCss: {
+                                                backgroundColor: "#000"
+                                            },
+                                            overlayClose: true,
+                                            zIndex: 5600000,
+                                            onClose: function(mn) {
+                                                $.modal.close();
+                                                $(popFrame).children('.dptvsbframe').attr('src', 'about:blank');
+                                                $('body').removeClass('lockemUp');
+                                            }
+                                        });
+                                        e.preventDefault();
+                                    });
+                                    </script>
+
+                                </div><!-- end big-box-left -->
+
+                                <div id="big-box-right" class="complexListingBox">
+
+                                    <script src="http://extras.denverpost.com/cache/verdict_heds.js"></script>
+
+                                </div><!-- end big-box-right -->
+
+                                <div class="clear"></div>
+
+                            </div>
+
+                            <h3 id="minnivelow">Get <a href="/theatertrial">complete coverage of the trial</a> including analysis and more</h3>
+
+                        </div>
+
+
+
+                        <!-- #################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ######################################################################################
+                        ################################################################################## -->
